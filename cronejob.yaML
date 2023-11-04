@@ -3,6 +3,7 @@ kind: CronJob
 metada: 
   name: periodicjob
 spec: 
+  backoffLimit: 2
   schedule: '* * * * *'
   jobTemplate: 
     metadata:
@@ -12,6 +13,7 @@ spec:
         metadata:
           name: livedatapod
         spec: 
+          restartpolicy: OnFailure 
           - containers: alpine
             name: alpine
             command: 
