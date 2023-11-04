@@ -16,8 +16,4 @@ spec:
             name: alpine
             command: 
               - sleep
-              - 3s  
-  
-
-
-    
+              - 3s   
