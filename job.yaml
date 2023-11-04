@@ -9,7 +9,7 @@ spec:
     metadata:
       name: jobpod 
     spec: 
-      restartpolicy: OnFailure
+      # restartpolicy: OnFailure
       containers: 
         - name: alpine
           image: alpine
