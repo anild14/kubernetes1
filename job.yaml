@@ -10,8 +10,8 @@ spec:
     spec: 
       restartpolicy: OnFailure
       containers: 
-        name: alpine
-        - image: alpine
+        - name: alpine
+          image: alpine
           command: 
             - sleep 
             - 10s 
