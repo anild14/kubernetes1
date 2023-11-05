@@ -6,6 +6,6 @@ spec:
   containers: 
     - name: alpine
       image: alpine
-      arg: 
+      args: 
         - sleep
         - 1d
