@@ -6,7 +6,7 @@ spec:
   restartPolicy: OnFailure
   containers: 
     - name: failure
-      image: alpine
+      image: alpine:latest
       args: 
         - sleep
         - 3SM
@@ -19,7 +19,7 @@ spec:
   restartPolicy: OnFailure
   containers: 
     - name: success
-      image: alpine
+      image: alpine:latest
       args:
         - sleep
         - 3s
