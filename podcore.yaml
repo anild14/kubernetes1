@@ -20,6 +20,6 @@ spec:
   containers: 
     - name: success
       image: alpine
-      args: 
+      args:
         - sleep
-        - 3s    
+        - 3s
