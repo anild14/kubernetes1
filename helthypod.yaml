@@ -7,7 +7,7 @@ spec:
   restartPolicy: OnFailure
   containers: 
     - name: failure
-      imagee: alpine
+      image: alpine
       args: 
         - sleep
         - 3SM
