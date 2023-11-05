@@ -20,5 +20,3 @@ spec:
               command:
                 - sleep
                 - 3s
-                 
-                   
