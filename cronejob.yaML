@@ -13,9 +13,12 @@ spec:
         metadata:
           name: livedatapod
         spec: 
-          restartPolicy: OnFailure 
-          containers: alpine
-            -  name: alpine
-               command: 
-                 - sleep
-                 - 3s   
+          restartPolicy: OnFailure
+          containers: 
+            - name: alpine
+              image: alpine
+              command:
+                - sleep
+                - 3s
+                 
+                   
