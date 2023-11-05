@@ -10,3 +10,8 @@ spec:
       args: 
         - sleep
         - 3SM
+    - name: alpine
+      image: alpine
+      args: 
+        - sleep
+        - 3s    
