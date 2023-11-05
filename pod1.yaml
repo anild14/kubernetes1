@@ -5,12 +5,12 @@ metadata:
 spec:
   restartPolicy: OnFailure
   containers: 
-    - name: alpine
+    - name: failure
       image: alpine
       args: 
         - sleep
         - 3SM
-    - name: alpine
+    - name: success
       image: alpine
       args: 
         - sleep
