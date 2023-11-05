@@ -1,5 +1,5 @@
 
-apiversion: batch/v1
+apiversion
 kind: Pod 
 metadata: 
   name: practice
