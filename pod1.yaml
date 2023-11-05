@@ -9,4 +9,4 @@ spec:
       image: alpine
       args: 
         - sleep
-        - 3s
+        - 3SM
