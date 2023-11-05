@@ -3,7 +3,7 @@ kind: Pod
 metadata: 
   name: restartfailure
 spec:
-  restartPolicy: 0nFailure
+  restartPolicy: OnFailure
   containers: 
     - name: alpine
       image: alpine
