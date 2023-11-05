@@ -11,7 +11,7 @@ spec:
       args: 
         - sleep
         - 3SM
- --------
+ ---
  apiVersion: v1
  kind: Pod
  metadata: 
