@@ -1,5 +1,5 @@
 
-apiversion
+apiversion: v1
 kind: Pod 
 metadata: 
   name: practice
