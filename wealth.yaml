@@ -1,22 +1,27 @@
+---
 apiVersion: batch/v1
 kind: CronJob
-metada: 
-  name: periodicjob
-spec: 
-  backoffLimit: 2
-  schedule: '* * * * *'
+metadata: 
+  name: intervaljob
+spec:
+  schedule: "* * * * *"
   jobTemplate: 
     metadata:
-      name: getlivedata
-    spec: 
+      name: livedata
+    spec:
       template:
         metadata:
           name: livedatapod
         spec: 
-          restartPolicy: OnFailure
           containers: 
             - name: alpine
               image: alpine
               command:
                 - sleep
                 - 3s
+
+
+        
+
+
+
