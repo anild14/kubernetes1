@@ -1,6 +1,6 @@
 
 apiversion: v1
-kind: Pod 
+kind: Pod
 metadata: 
   name: practice
   labels:
