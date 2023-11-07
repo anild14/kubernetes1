@@ -9,6 +9,7 @@ spec:
     metadata:
       name: livedata
     spec:
+      backoffLimit: 2
       template:
         metadata:
           name: livedatapod
