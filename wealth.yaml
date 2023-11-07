@@ -12,7 +12,8 @@ spec:
       template:
         metadata:
           name: livedatapod
-        spec: 
+        spec:
+          restartPolicy: OnFailure
           containers: 
             - name: alpine
               image: alpine
