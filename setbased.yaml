@@ -34,4 +34,4 @@ spec:
         - name: nginx
           image: nginx:1.23
           ports: 
-            - containers: 80    
+            - containerPort: 80    
