@@ -3,10 +3,10 @@ kind: Service
 metadata: 
   name: nginx-svc
 spec: 
-  selector: 
+  selector : 
     app: nginx
   type: clusterIP
- ports: 
+  ports: 
    - name: nginx-svc
         port: 80
         targetPort: 80
