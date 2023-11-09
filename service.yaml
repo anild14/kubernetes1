@@ -5,9 +5,9 @@ metadata:
 spec: 
   selector: 
     app: nginx
-    type: clusterIP
-    ports: 
-      - name: nginx-svc
+  type: clusterIP
+ ports: 
+   - name: nginx-svc
         port: 80
         targetPort: 80
         protocol: TCP 
