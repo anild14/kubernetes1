@@ -1,14 +1,13 @@
 ---
-apiVersion: apps/v1
-kind: ReplicaSet
+apiVersion: v1
+kind: ReplicationController
 metadata: 
   name: nginx-rps
 spec: 
   minReadySeconds: 1
   replicas: 3
   selector:
-    matchLabels: 
-      app: nginx
+    app: nginx
   template: 
     metadata: 
       name: nginx-pod
