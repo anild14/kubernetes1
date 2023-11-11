@@ -34,7 +34,7 @@ spec:
     spec: 
       containers: 
         - name: httpd
-          image: httpd:2.4.57
+          image: httpd
           ports:
             - containerPort: 80 
           livenessProbe:
