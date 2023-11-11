@@ -10,8 +10,8 @@ spec:
       port: 80
       targetPort: 80
  selector: 
-     app: httpd
-  type: LoadBalancer
+   app: httpd
+ type: LoadBalancer
 
    ---
 apiVersion: apps/v1
