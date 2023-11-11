@@ -9,9 +9,9 @@ spec:
     - name: httpd-svc
       port: 80
       targetPort: 80
-   selector: 
+ selector: 
      app: httpd
-   type: LoadBalancer
+  type: LoadBalancer
 
    ---
 apiVersion: apps/v1
