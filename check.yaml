@@ -8,7 +8,7 @@
  spec:
    ports: 
      - name: httpd-svc
-      port: 80
+       port: 80
        targetPort: 80
    selector: 
      app: httpd
