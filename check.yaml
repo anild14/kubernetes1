@@ -46,7 +46,7 @@ spec:
             exec: 
               command: 
                 - sleep
-                - 10s
+                - 10MM
           readinessProbe: 
             failureThreshold: 3
             initialDelaySeconds: 1
