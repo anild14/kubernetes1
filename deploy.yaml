@@ -6,10 +6,10 @@ metadata:
 spec:
   selector: 
     app: nginx
-  ports: 
+  ports:
     - name: nginx
       image: nginx-svc
       port: 80
       targetPort: 80
       protocol: TCP
-      type: LoadBalancer
+  type: LoadBalancer
