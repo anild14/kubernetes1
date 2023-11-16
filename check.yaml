@@ -54,8 +54,8 @@ spec:
             timeoutSeconds: 1
             exec:
               command: 
-                - sleep
                 - exit
+                - 1
 
             
 
