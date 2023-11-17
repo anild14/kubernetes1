@@ -4,7 +4,7 @@ kind: DaemonSet
 metadata: 
   name: fluentd-ds
   annotations: 
-    kubernetes.io/change-cause: "added fluentd debian"
+    kubernetes.io/change-cause: "updated to latest"
 spec: 
   minReadySeconds: 5
   selector: 
@@ -18,7 +18,7 @@ spec:
     spec: 
       containers: 
         - name: fluentd 
-          image: fluentd:v1.16-debian-1
+          image: fluentd:latest
 
 
     
