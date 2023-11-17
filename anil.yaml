@@ -1,6 +1,6 @@
 ---
 apiVesrion: v1
-kind: Pod
+Kind: Pod
 metadata: 
   name: nodeselector
   labels:
