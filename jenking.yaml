@@ -7,6 +7,8 @@ metadata:
     app: nginx 
     purpose: nodeselector
 spec: 
+  nodeSelector: 
+    purpose: poc
   containers: 
     - name: jenkins
       image: jenkins/jenkins:jdk11
