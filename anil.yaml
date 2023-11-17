@@ -1,5 +1,5 @@
 ---
-apiVesrion: v1
+apiVesrion: core/v1
 Kind: Pod
 metadata: 
   name: nodeselector
