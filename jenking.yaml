@@ -1,0 +1,14 @@
+---
+apiVesrion: v1
+kind: pod
+metadata: 
+  name: nodeselector
+  labels:
+    app: nginx 
+    purpose: nodeselector
+spec: 
+  containers: 
+    - name: jenkins
+      image: jenkins/jenkins:jdk11
+      ports: 
+        - containerPort: 8080  
