@@ -13,7 +13,8 @@ spec:
   template: 
     metadata: 
       name: fluentd
-      labels: fluentd
+      labels:
+        app: fluentd
     spec: 
       containers: 
         - name: fluentd 
