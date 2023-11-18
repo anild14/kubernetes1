@@ -13,7 +13,7 @@ spec:
       ports: 
         - containerPort: 3306
       volumeMounts: 
-        - name: test-volume
+        - name: mysqlpr-volume
           mountPath: /var/lib/mysql
   volumes: 
     - name: mysqlpr-volume
