@@ -16,7 +16,7 @@ spec:
         - name: mysqlpr-volume
           mountPath: /var/lib/mysql
       env:
-        - name: MYSQL_ROOT_PASSWOR
+        - name: MYSQL_ROOT_PASSWORD
           value: rootroot 
         - name: MYSQL_USER
           value: abdevops
@@ -24,7 +24,6 @@ spec:
           value: rootroot
           name: MYSQL_DATABASE
           value: employees
-
   volumes: 
     - name: mysqlpr-volume
       persistentVolumeClaim: 
