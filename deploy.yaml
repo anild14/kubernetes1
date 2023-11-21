@@ -12,3 +12,14 @@ spec:
       targetPort: 80
       protocol: TCP
   type: LoadBalancer
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata: 
+  name: mysql-pvc
+spec: 
+  accessModes:  
+    - ReadWriteOnce
+  resources: 
+    requests: 
+      storage: 1Gi
+  storageClassName: gp2  
